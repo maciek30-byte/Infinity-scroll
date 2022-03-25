@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
+
 import{ApolloProvider} from "@apollo/client";
+
 import { client} from "./api/apolloClient";
-import {LaunchList} from "./LaunchesList/LaunchList";
+import {LaunchList} from "./components/LaunchesList/LaunchList";
 
 function App() {
   return (

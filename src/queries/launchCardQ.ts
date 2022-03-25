@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 export const GET_LIST_LAUNCHES = gql`
-query ListLaunches($offset: Int!, $limit: Int!) {
+  query ListLaunches($offset: Int!, $limit: Int!) {
     launches: launchesPast(
       offset: $offset
       limit: $limit
